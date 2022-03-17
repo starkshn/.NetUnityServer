@@ -1,0 +1,15 @@
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\bin\Debug\net6.0\ServerCore.exe
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\bin\Debug\net6.0\ServerCore.deps.json
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\bin\Debug\net6.0\ServerCore.runtimeconfig.json
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\bin\Debug\net6.0\ServerCore.dll
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\bin\Debug\net6.0\ServerCore.pdb
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.csproj.AssemblyReference.cache
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.AssemblyInfoInputs.cache
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.AssemblyInfo.cs
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.dll
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\refint\ServerCore.dll
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.pdb
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ServerCore.genruntimeconfig.cache
+C:\Users\stark\Desktop\CSHARP\UnityServer_2\UnityServer_2\obj\Debug\net6.0\ref\ServerCore.dll
