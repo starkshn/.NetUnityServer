@@ -11,13 +11,13 @@ namespace ServerCore
     class Listener
     {
         Socket _listenSocket;
-        Action<Socket> _onAcceptHandler;
+        Func<Session> _sessionFactroy;
 
-        public void Init(IPEndPoint endPoint, Action<Socket> onAcceptHandler)
+        public void Init(IPEndPoint endPoint, Func<Session> sessionFactroy)
         {
             // 문지기
             _listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-            _onAcceptHandler += onAcceptHandler;
+            _sessionFactroy += sessionFactroy;
 
             // 문지기 교육
             _listenSocket.Bind(endPoint);
@@ -28,8 +28,6 @@ namespace ServerCore
             SocketAsyncEventArgs args = new SocketAsyncEventArgs();
             args.Completed += new EventHandler<SocketAsyncEventArgs>(OnAcceptCompleted);
             RegisterAccept(args);
-
-
         }
         void RegisterAccept(SocketAsyncEventArgs args)
         {
@@ -45,8 +43,11 @@ namespace ServerCore
         {
             if (args.SocketError == SocketError.Success)
             {
+                Session session = _sessionFactroy.Invoke();
+                session.Start(args.AcceptSocket);
+                session.OnConnected(args.AcceptSocket.RemoteEndPoint);
                 // TODO 실제로 유저가 왔을 때
-                _onAcceptHandler.Invoke(args.AcceptSocket);
+               
             }
             else
                 Console.WriteLine(args.SocketError.ToString());
