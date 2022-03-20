@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\stark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\Server\\obj\\",
+      "outputPath": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

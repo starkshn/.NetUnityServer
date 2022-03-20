@@ -13,20 +13,18 @@ namespace ServerCore
         static void OnAcceptHandler(Socket clientSocket)
         {
             try
-            {
-                // 받는다 (손님이 하고싶은말을 받는다.
-                byte[] recvBuff = new byte[1024];
-                int recvBytes = clientSocket.Receive(recvBuff);
-                string recvData = Encoding.UTF8.GetString(recvBuff, 0, recvBytes); // 받은거 string으로 변환해줌. 0 == 시작 index, 몇 byte인지
-                Console.WriteLine($"From Client : {recvData}");
+            { 
+                Session session = new Session();
+                session.Start(clientSocket);
 
-                // 보낸다 server -> client쪽으로 메세지 보내기
                 byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome To MMO RPG Server!"); // 이 문자열을 buffer로 만듦
-                clientSocket.Send(sendBuff);
+                session.Send(sendBuff);
 
-                // 쫒아낸다 (볼일 다봤으니)
-                clientSocket.Shutdown(SocketShutdown.Both);
-                clientSocket.Close();
+                Thread.Sleep(1000);
+
+                session.Disconnect();
+                session.Disconnect();
+
             }
             catch (Exception e)
             {

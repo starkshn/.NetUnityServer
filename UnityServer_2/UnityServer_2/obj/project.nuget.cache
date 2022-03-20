@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+OOdUuAiwR8QXCo3Dd5RKXpgb38Hca1oY16ICx/Ypx1nsj/YF/p3hlM3Xlxj7bOdEa7Ttw0ITMxQ2doGp/MxQ==",
+  "dgSpecHash": "qNXm7Oi1YpW1lqAYXN6n/xY9bO1O/NQire/bloOALqVTYPSB/+YWU2B//AM3mKfHLZfStIzry76B3EiMPKljsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\UnityServer_2\\ServerCore.csproj",
+  "projectFilePath": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\UnityServer_2\\ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

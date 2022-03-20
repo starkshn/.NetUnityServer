@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\DummyClient\\DummyClient.csproj": {}
+    "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\DummyClient\\DummyClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\DummyClient\\DummyClient.csproj": {
+    "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\DummyClient\\DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\DummyClient\\DummyClient.csproj",
+        "projectUniqueName": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\DummyClient\\DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\DummyClient\\DummyClient.csproj",
+        "projectPath": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\DummyClient\\DummyClient.csproj",
         "packagesPath": "C:\\Users\\stark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stark\\Desktop\\CSHARP\\UnityServer_2\\DummyClient\\obj\\",
+        "outputPath": "C:\\Users\\stark\\Desktop\\CSHARP\\.NetUnityServer\\UnityServer_2\\DummyClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
